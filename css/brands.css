@@ -593,6 +593,12 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* WeChat */
+.button-wechat {
+	--button-text:#ffffff;
+	--button-background:#07C160;
+}
+
 /* WhatsApp */
 .button-whatsapp {
 	--button-text:#ffffff;
