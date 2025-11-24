@@ -413,6 +413,11 @@ ul li {
   opacity: 1;
 }
 
+/* Prevent background scroll when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
 /* Font Face Definitions
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face {
