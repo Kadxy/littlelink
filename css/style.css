@@ -137,7 +137,6 @@ h1 {
 	letter-spacing:-0.02em;
 	word-wrap:break-word;
 	overflow-wrap:break-word;
-    color: #000000;
 }
 body {
 	font-size:var(--scale-1);           /* 20px */
@@ -275,6 +274,9 @@ a:hover {
 	background-color:#121212;
 	color:#ffffff;
 }
+:root.theme-dark .bio-container p {
+    color: #ccc;
+}
 :root.theme-dark a:not(.button) {
 	color:#4899F7;
 }
@@ -290,6 +292,9 @@ a:hover {
 	:root.theme-auto body {
 	background-color:#121212;
 	color:#ffffff;
+}
+:root.theme-auto .bio-container p {
+    color: #ccc;
 }
 :root.theme-auto :focus-visible {
     outline: 2px solid #4899F7;
